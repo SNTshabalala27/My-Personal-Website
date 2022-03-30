@@ -1,0 +1,50 @@
+       <div class="AboutMe">
+         <h2 id="AboutMe">My Background</h2>
+         <p class="paragraph">I was born in Secunda "Mpumalanga" and that is where I spent most of my childhood. When I finished primary school, I then moved to Eastrand "Duduza"to stay with my grandmother and attend high school. I then matriculated in 2013. In 2014 I took a gap year before I went to University.
+         </div>
+
+       <div class="Education">
+         <h2 id="Education">Education</h2>
+         <p class="paragraph2">In 2015 I enrolled for a Bing Electrical & Electronic at the University of Johannesburg. I finished my studies in 2020. During my time at the University of Johannesburg, I also did a certificate for Intelligence in the 4IR and a certificate for African Insights. I have also done online courses in Udemy for programming.</p>
+       </div>
+
+       <div class="Experience">
+         <h2 id="Experience">Experience</h2>
+         <p class="paragraph3">In 2021 I worked for a solar energy company, where I worked as an electrical engineer responsible for solar plant designs, monitoring and maintenance. I worked in both small(residential) and large(mines and hospitals) projects. I was also responsible for drafting technical proporsals for tendering. Before that, I worked in Eskom Kusile Power Station during holidays when I was at university. I also worked in a game reseve during my gap year(in 2014). I am currently working as a Junior Cloud App Developer for CapaCiTi.</p>
+       </div>
+
+CSS
+
+.home2{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(236, 236, 236, 1);
+  height: 850px; /*this is the height of the section*/
+  justify-content: left;
+  align-items: left;
+  color: black; /*text color*/
+}
+
+#AboutMe, #Education, #Experience{
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0;
+}
+
+#AboutMe{
+  padding-top: 100px;
+}
+
+
+.paragraph, .paragraph2, .paragraph3{
+  text-align: center;
+  justify-content: left;
+  align-items: left;
+  font-family: century;
+  font-size: 1.5rem;
+}
+
+#AboutMe, #Education, #Experience{
+  font-size: 2rem;
+}
